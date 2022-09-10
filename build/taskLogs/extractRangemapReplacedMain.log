@@ -1,0 +1,34 @@
+Unsupposrted library path: C:\Users\User\MCreatorWorkspaces\chawnbattle\build\classes\java\api
+Unsupposrted library path: C:\Users\User\MCreatorWorkspaces\chawnbattle\build\resources\api
+Symbol range map extraction starting
+Processing 10 files
+startProcessing "net/mcreator/chawnbattle/ClientProxychawnbattle.java" md5: 3520d45fd4a7100be1460da91457cc79
+endProcessing "net/mcreator/chawnbattle/ClientProxychawnbattle.java"
+
+startProcessing "net/mcreator/chawnbattle/Elementschawnbattle.java" md5: c90e5ca88178952552c60c75d1aa0fae
+endProcessing "net/mcreator/chawnbattle/Elementschawnbattle.java"
+
+startProcessing "net/mcreator/chawnbattle/IProxychawnbattle.java" md5: 37ec59abf9f6bf8957327d09dd382f30
+endProcessing "net/mcreator/chawnbattle/IProxychawnbattle.java"
+
+startProcessing "net/mcreator/chawnbattle/MCreatorChawn.java" md5: 35481388027586dffee375bbeffbd013
+endProcessing "net/mcreator/chawnbattle/MCreatorChawn.java"
+
+startProcessing "net/mcreator/chawnbattle/MCreatorChawnEntityDies.java" md5: 966473c95c5bb9280ac28941c3bd2cb4
+endProcessing "net/mcreator/chawnbattle/MCreatorChawnEntityDies.java"
+
+startProcessing "net/mcreator/chawnbattle/MCreatorChawnPlayerCollidesWithThisEntity.java" md5: 1f0c29e73a614c64428ec9685780d38a
+endProcessing "net/mcreator/chawnbattle/MCreatorChawnPlayerCollidesWithThisEntity.java"
+
+startProcessing "net/mcreator/chawnbattle/MCreatorChawnRightClickedOnEntity.java" md5: 4894bf486bb04a34b558b7590f7f978f
+endProcessing "net/mcreator/chawnbattle/MCreatorChawnRightClickedOnEntity.java"
+
+startProcessing "net/mcreator/chawnbattle/ServerProxychawnbattle.java" md5: 092cf5f032cc3735ad0a6d0441b37f91
+endProcessing "net/mcreator/chawnbattle/ServerProxychawnbattle.java"
+
+startProcessing "net/mcreator/chawnbattle/chawnbattle.java" md5: c0771054bf892ad00bc59c6ede6acb2e
+endProcessing "net/mcreator/chawnbattle/chawnbattle.java"
+
+startProcessing "net/mcreator/chawnbattle/chawnbattleVariables.java" md5: 52be13909f51b5cc1b0d0267fb9dd4bc
+endProcessing "net/mcreator/chawnbattle/chawnbattleVariables.java"
+

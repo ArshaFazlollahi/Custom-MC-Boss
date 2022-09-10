@@ -1,0 +1,375 @@
+Processing 10 files
+Start Processing: net/mcreator/chawnbattle/ClientProxychawnbattle.java
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.client.model.obj.OBJLoader
+End  Processing: net/mcreator/chawnbattle/ClientProxychawnbattle.java
+
+Start Processing: net/mcreator/chawnbattle/Elementschawnbattle.java
+New Key: class net/minecraftforge/fml/common/discovery/ASMDataTable
+New Key: class net/mcreator/chawnbattle/Elementschawnbattle/ModElement
+New Key: class net/mcreator/chawnbattle/Elementschawnbattle
+New Key: class net/mcreator/chawnbattle/Elementschawnbattle
+New Key: class net/mcreator/chawnbattle/Elementschawnbattle
+New Key: class net/mcreator/chawnbattle/chawnbattleVariables
+New Key: class net/mcreator/chawnbattle/chawnbattleVariables
+New Key: class net/minecraftforge/event/RegistryEvent
+Rename field net/minecraft/world/World/provider[3296,3304]::provider->field_73011_w
+Rename field net/minecraft/entity/Entity/world[3685,3690]::world->field_70170_p
+Rename field net/minecraft/world/World/isRemote[3699,3707]::isRemote->field_72995_K
+New Key: class net/mcreator/chawnbattle/chawnbattleVariables
+Rename field net/minecraft/entity/Entity/world[3796,3801]::world->field_70170_p
+New Key: class net/mcreator/chawnbattle/chawnbattleVariables
+Rename field net/minecraft/entity/Entity/world[3896,3901]::world->field_70170_p
+New Key: class net/mcreator/chawnbattle/chawnbattleVariables
+New Key: class net/mcreator/chawnbattle/chawnbattleVariables
+Rename field net/minecraft/entity/Entity/world[4414,4419]::world->field_70170_p
+Rename field net/minecraft/world/World/isRemote[4428,4436]::isRemote->field_72995_K
+New Key: class net/mcreator/chawnbattle/chawnbattleVariables
+Rename field net/minecraft/entity/Entity/world[4529,4534]::world->field_70170_p
+New Key: class net/mcreator/chawnbattle/chawnbattleVariables
+FOUND CONSTR method net/mcreator/chawnbattle/Elementschawnbattle/ModElement/ModElement (Lnet/mcreator/chawnbattle/Elementschawnbattle;I)V net/mcreator/chawnbattle/Elementschawnbattle/ModElement
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.EntityEntry
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessage
+Import: net.minecraftforge.fml.common.network.IGuiHandler
+Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.fml.common.discovery.ASMDataTable
+Import: net.minecraftforge.fml.common.IWorldGenerator
+Import: net.minecraftforge.fml.common.IFuelHandler
+Import: net.minecraftforge.event.RegistryEvent
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 16 imports
+        java.util.ArrayList
+        java.util.Collections
+        java.util.List
+        java.util.Random
+        java.util.function.Supplier
+        net.minecraft.block.Block
+        net.minecraft.entity.player.EntityPlayer
+        net.minecraft.entity.player.EntityPlayerMP
+        net.minecraft.item.Item
+        net.minecraft.item.ItemStack
+        net.minecraft.potion.Potion
+        net.minecraft.world.World
+        net.minecraft.world.biome.Biome
+        net.minecraft.world.chunk.IChunkProvider
+        net.minecraft.world.gen.IChunkGenerator
+        net.minecraft.world.storage.WorldSavedData
+End  Processing: net/mcreator/chawnbattle/Elementschawnbattle.java
+
+Start Processing: net/mcreator/chawnbattle/IProxychawnbattle.java
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+End  Processing: net/mcreator/chawnbattle/IProxychawnbattle.java
+
+Start Processing: net/mcreator/chawnbattle/MCreatorChawn.java
+New Key: class net/mcreator/chawnbattle/Elementschawnbattle
+New Key: class net/mcreator/chawnbattle/Elementschawnbattle
+FOUND CONSTR method net/mcreator/chawnbattle/MCreatorChawn/MCreatorChawn (Lnet/mcreator/chawnbattle/Elementschawnbattle;)V net/mcreator/chawnbattle/MCreatorChawn
+Rename method net/minecraft/client/renderer/entity/Render/getEntityTexture (Lnet/minecraft/entity/Entity;)Lnet/minecraft/util/ResourceLocation;[3500,3516]::getEntityTexture->func_110775_a
+Rename method net/minecraft/client/renderer/entity/RenderLivingBase/addLayer (Lnet/minecraft/client/renderer/entity/layers/LayerRenderer;)Z[3645,3653]::addLayer->func_177094_a
+Rename method net/minecraft/client/renderer/entity/layers/LayerArmorBase/initArmor ()V[3759,3768]::initArmor->func_177177_a
+Rename field net/minecraft/client/renderer/entity/layers/LayerArmorBase/modelLeggings[3788,3801]::modelLeggings->field_177189_c
+Rename field net/minecraft/client/renderer/entity/layers/LayerArmorBase/modelArmor[3838,3848]::modelArmor->field_177186_d
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[4097,4109]::getMinecraft->func_71410_x
+Rename method net/minecraft/client/Minecraft/getRenderItem ()Lnet/minecraft/client/renderer/RenderItem;[4112,4125]::getRenderItem->func_175599_af
+Rename method net/minecraft/client/renderer/entity/RenderSnowball/getStackToRender (Lnet/minecraft/entity/Entity;)Lnet/minecraft/item/ItemStack;[4154,4170]::getStackToRender->func_177082_d
+Rename field net/minecraft/init/Items/ENDER_EYE[4229,4238]::ENDER_EYE->field_151061_bv
+FOUND CONSTR method net/mcreator/chawnbattle/MCreatorChawn/EntityCustom/EntityCustom (Lnet/minecraft/world/World;)V net/mcreator/chawnbattle/MCreatorChawn/EntityCustom
+Rename method net/minecraft/entity/Entity/setSize (FF)V[4428,4435]::setSize->func_70105_a
+Rename field net/minecraft/entity/EntityLiving/experienceValue[4458,4473]::experienceValue->field_70728_aV
+Rename field net/minecraft/entity/Entity/isImmuneToFire[4487,4501]::isImmuneToFire->field_70178_ae
+Rename method net/minecraft/entity/EntityLiving/setNoAI (Z)V[4514,4521]::setNoAI->func_94061_f
+Rename method net/minecraft/entity/Entity/setCustomNameTag (Ljava/lang/String;)V[4539,4555]::setCustomNameTag->func_96094_a
+Rename method net/minecraft/entity/Entity/setAlwaysRenderNameTag (Z)V[4566,4588]::setAlwaysRenderNameTag->func_174805_g
+Rename method net/minecraft/entity/EntityLiving/enablePersistence ()V[4591,4608]::enablePersistence->func_110163_bv
+Rename field net/minecraft/entity/EntityLiving/tasks[4618,4623]::tasks->field_70714_bg
+Rename method net/minecraft/entity/ai/EntityAITasks/addTask (ILnet/minecraft/entity/ai/EntityAIBase;)V[4633,4640]::addTask->func_75776_a
+Rename field net/minecraft/entity/EntityLiving/tasks[4690,4695]::tasks->field_70714_bg
+Rename method net/minecraft/entity/ai/EntityAITasks/addTask (ILnet/minecraft/entity/ai/EntityAIBase;)V[4705,4712]::addTask->func_75776_a
+Rename field net/minecraft/entity/EntityLiving/tasks[4759,4764]::tasks->field_70714_bg
+Rename method net/minecraft/entity/ai/EntityAITasks/addTask (ILnet/minecraft/entity/ai/EntityAIBase;)V[4774,4781]::addTask->func_75776_a
+Rename field net/minecraft/entity/EntityLiving/tasks[4828,4833]::tasks->field_70714_bg
+Rename method net/minecraft/entity/ai/EntityAITasks/addTask (ILnet/minecraft/entity/ai/EntityAIBase;)V[4843,4850]::addTask->func_75776_a
+Rename field net/minecraft/entity/EntityLiving/tasks[4914,4919]::tasks->field_70714_bg
+Rename method net/minecraft/entity/ai/EntityAITasks/addTask (ILnet/minecraft/entity/ai/EntityAIBase;)V[4929,4936]::addTask->func_75776_a
+Rename field net/minecraft/entity/EntityLiving/targetTasks[4997,5008]::targetTasks->field_70715_bh
+Rename method net/minecraft/entity/ai/EntityAITasks/addTask (ILnet/minecraft/entity/ai/EntityAIBase;)V[5012,5019]::addTask->func_75776_a
+Rename field net/minecraft/entity/EntityLiving/tasks[5076,5081]::tasks->field_70714_bg
+Rename method net/minecraft/entity/ai/EntityAITasks/addTask (ILnet/minecraft/entity/ai/EntityAIBase;)V[5091,5098]::addTask->func_75776_a
+Rename field net/minecraft/entity/EntityLiving/tasks[5151,5156]::tasks->field_70714_bg
+Rename method net/minecraft/entity/ai/EntityAITasks/addTask (ILnet/minecraft/entity/ai/EntityAIBase;)V[5166,5173]::addTask->func_75776_a
+Rename field net/minecraft/entity/EntityLiving/tasks[5227,5232]::tasks->field_70714_bg
+Rename method net/minecraft/entity/ai/EntityAITasks/addTask (ILnet/minecraft/entity/ai/EntityAIBase;)V[5242,5249]::addTask->func_75776_a
+Rename field net/minecraft/entity/EntityLiving/tasks[5299,5304]::tasks->field_70714_bg
+Rename method net/minecraft/entity/ai/EntityAITasks/addTask (ILnet/minecraft/entity/ai/EntityAIBase;)V[5314,5321]::addTask->func_75776_a
+Rename method net/minecraft/entity/EntityLivingBase/getCreatureAttribute ()Lnet/minecraft/entity/EnumCreatureAttribute;[5433,5453]::getCreatureAttribute->func_70668_bt
+Rename method net/minecraft/entity/EntityLiving/canDespawn ()Z[5533,5543]::canDespawn->func_70692_ba
+Rename method net/minecraft/entity/EntityLiving/getDropItem ()Lnet/minecraft/item/Item;[5607,5618]::getDropItem->func_146068_u
+Rename method net/minecraft/entity/EntityLiving/getAmbientSound ()Lnet/minecraft/util/SoundEvent;[5702,5717]::getAmbientSound->func_184639_G
+Rename field net/minecraft/util/SoundEvent/REGISTRY[5793,5801]::REGISTRY->field_187505_a
+Rename method net/minecraft/util/registry/IRegistry/getObject (Ljava/lang/Object;)Ljava/lang/Object;[5808,5817]::getObject->func_82594_a
+Rename method net/minecraft/entity/EntityLivingBase/getHurtSound (Lnet/minecraft/util/DamageSource;)Lnet/minecraft/util/SoundEvent;[5908,5920]::getHurtSound->func_184601_bQ
+Rename field net/minecraft/util/SoundEvent/REGISTRY[6015,6023]::REGISTRY->field_187505_a
+Rename method net/minecraft/util/registry/IRegistry/getObject (Ljava/lang/Object;)Ljava/lang/Object;[6030,6039]::getObject->func_82594_a
+Rename method net/minecraft/entity/EntityLivingBase/getDeathSound ()Lnet/minecraft/util/SoundEvent;[6148,6161]::getDeathSound->func_184615_bR
+Rename field net/minecraft/util/SoundEvent/REGISTRY[6240,6248]::REGISTRY->field_187505_a
+Rename method net/minecraft/util/registry/IRegistry/getObject (Ljava/lang/Object;)Ljava/lang/Object;[6255,6264]::getObject->func_82594_a
+Rename method net/minecraft/entity/EntityLivingBase/getSoundVolume ()F[6353,6367]::getSoundVolume->func_70599_aP
+Rename method net/minecraft/entity/Entity/attackEntityFrom (Lnet/minecraft/util/DamageSource;F)Z[6426,6442]::attackEntityFrom->func_70097_a
+Rename field net/minecraft/util/DamageSource/FALL[6507,6511]::FALL->field_76379_h
+Rename field net/minecraft/util/DamageSource/DROWN[6572,6577]::DROWN->field_76369_e
+Rename method net/minecraft/entity/Entity/attackEntityFrom (Lnet/minecraft/util/DamageSource;F)Z[6623,6639]::attackEntityFrom->func_70097_a
+Rename method net/minecraft/entity/EntityLivingBase/onDeath (Lnet/minecraft/util/DamageSource;)V[6688,6695]::onDeath->func_70645_a
+Rename method net/minecraft/entity/EntityLivingBase/onDeath (Lnet/minecraft/util/DamageSource;)V[6734,6741]::onDeath->func_70645_a
+Rename field net/minecraft/entity/Entity/posX[6779,6783]::posX->field_70165_t
+Rename field net/minecraft/entity/Entity/posY[6817,6821]::posY->field_70163_u
+Rename field net/minecraft/entity/Entity/posZ[6855,6859]::posZ->field_70161_v
+Rename method net/minecraft/entity/EntityLiving/processInteract (Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Z[7092,7107]::processInteract->func_184645_a
+Rename method net/minecraft/entity/EntityLiving/processInteract (Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Z[7154,7169]::processInteract->func_184645_a
+Rename field net/minecraft/entity/Entity/posX[7206,7210]::posX->field_70165_t
+Rename field net/minecraft/entity/Entity/posY[7244,7248]::posY->field_70163_u
+Rename field net/minecraft/entity/Entity/posZ[7282,7286]::posZ->field_70161_v
+Rename method net/minecraft/entity/EntityLivingBase/getHeldItem (Lnet/minecraft/util/EnumHand;)Lnet/minecraft/item/ItemStack;[7330,7341]::getHeldItem->func_184586_b
+Rename method net/minecraft/entity/Entity/onCollideWithPlayer (Lnet/minecraft/entity/player/EntityPlayer;)V[7571,7590]::onCollideWithPlayer->func_70100_b_
+Rename method net/minecraft/entity/Entity/onCollideWithPlayer (Lnet/minecraft/entity/player/EntityPlayer;)V[7618,7637]::onCollideWithPlayer->func_70100_b_
+Rename field net/minecraft/entity/Entity/posX[7664,7668]::posX->field_70165_t
+Rename field net/minecraft/entity/Entity/posY[7702,7706]::posY->field_70163_u
+Rename field net/minecraft/entity/Entity/posZ[7740,7744]::posZ->field_70161_v
+Rename method net/minecraft/entity/EntityLivingBase/applyEntityAttributes ()V[7969,7990]::applyEntityAttributes->func_110147_ax
+Rename method net/minecraft/entity/EntityLivingBase/applyEntityAttributes ()V[7998,8019]::applyEntityAttributes->func_110147_ax
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[8029,8047]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/ARMOR[8067,8072]::ARMOR->field_188791_g
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[8102,8120]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/ARMOR[8140,8145]::ARMOR->field_188791_g
+Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[8156,8168]::setBaseValue->func_111128_a
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[8190,8208]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/MOVEMENT_SPEED[8228,8242]::MOVEMENT_SPEED->field_111263_d
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[8263,8281]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/MOVEMENT_SPEED[8301,8315]::MOVEMENT_SPEED->field_111263_d
+Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[8317,8329]::setBaseValue->func_111128_a
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[8351,8369]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/MAX_HEALTH[8389,8399]::MAX_HEALTH->field_111267_a
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[8424,8442]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/MAX_HEALTH[8462,8472]::MAX_HEALTH->field_111267_a
+Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[8478,8490]::setBaseValue->func_111128_a
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[8512,8530]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/ATTACK_DAMAGE[8550,8563]::ATTACK_DAMAGE->field_111264_e
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[8585,8603]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/ATTACK_DAMAGE[8623,8636]::ATTACK_DAMAGE->field_111264_e
+Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[8639,8651]::setBaseValue->func_111128_a
+Rename method net/minecraft/entity/IRangedAttackMob/setSwingingArms (Z)V[8694,8709]::setSwingingArms->func_184724_a
+Rename method net/minecraft/entity/IRangedAttackMob/attackEntityWithRangedAttack (Lnet/minecraft/entity/EntityLivingBase;F)V[8754,8782]::attackEntityWithRangedAttack->func_82196_d
+Rename field net/minecraft/entity/Entity/world[8870,8875]::world->field_70170_p
+Rename field net/minecraft/entity/Entity/posY[8915,8919]::posY->field_70163_u
+Rename method net/minecraft/entity/Entity/getEyeHeight ()F[8947,8959]::getEyeHeight->func_70047_e
+Rename field net/minecraft/entity/Entity/posX[8992,8996]::posX->field_70165_t
+Rename field net/minecraft/entity/Entity/posX[9013,9017]::posX->field_70165_t
+Rename field net/minecraft/entity/Entity/posZ[9051,9055]::posZ->field_70161_v
+Rename field net/minecraft/entity/Entity/posZ[9072,9076]::posZ->field_70161_v
+Rename method net/minecraft/entity/IProjectile/shoot (DDDFF)V[9103,9108]::shoot->func_70186_c
+Rename field net/minecraft/entity/Entity/posY[9137,9141]::posY->field_70163_u
+Rename method net/minecraft/util/math/MathHelper/sqrt (D)F[9173,9177]::sqrt->func_76133_a
+Rename field net/minecraft/entity/Entity/world[9240,9245]::world->field_70170_p
+Rename method net/minecraft/world/World/spawnEntity (Lnet/minecraft/entity/Entity;)Z[9254,9265]::spawnEntity->func_72838_d
+Rename method net/minecraft/entity/Entity/isNonBoss ()Z[9319,9328]::isNonBoss->func_184222_aU
+Rename method net/minecraft/command/ICommandSender/getDisplayName ()Lnet/minecraft/util/text/ITextComponent;[9428,9442]::getDisplayName->func_145748_c_
+New Key: class net/minecraft/world/BossInfo
+New Key: class net/minecraft/world/BossInfo
+Rename method net/minecraft/entity/Entity/addTrackingPlayer (Lnet/minecraft/entity/player/EntityPlayerMP;)V[9524,9541]::addTrackingPlayer->func_184178_b
+Rename method net/minecraft/entity/Entity/addTrackingPlayer (Lnet/minecraft/entity/player/EntityPlayerMP;)V[9573,9590]::addTrackingPlayer->func_184178_b
+Rename method net/minecraft/world/BossInfoServer/addPlayer (Lnet/minecraft/entity/player/EntityPlayerMP;)V[9614,9623]::addPlayer->func_186760_a
+Rename method net/minecraft/entity/Entity/removeTrackingPlayer (Lnet/minecraft/entity/player/EntityPlayerMP;)V[9672,9692]::removeTrackingPlayer->func_184203_c
+Rename method net/minecraft/entity/Entity/removeTrackingPlayer (Lnet/minecraft/entity/player/EntityPlayerMP;)V[9721,9741]::removeTrackingPlayer->func_184203_c
+Rename method net/minecraft/world/BossInfoServer/removePlayer (Lnet/minecraft/entity/player/EntityPlayerMP;)V[9762,9774]::removePlayer->func_186761_b
+Rename method net/minecraft/entity/Entity/onUpdate ()V[9820,9828]::onUpdate->func_70071_h_
+Rename method net/minecraft/entity/Entity/onUpdate ()V[9848,9856]::onUpdate->func_70071_h_
+Rename method net/minecraft/world/BossInfo/setPercent (F)V[9883,9893]::setPercent->func_186735_a
+Rename method net/minecraft/entity/EntityLivingBase/getHealth ()F[9902,9911]::getHealth->func_110143_aJ
+Rename method net/minecraft/entity/EntityLivingBase/getMaxHealth ()F[9926,9938]::getMaxHealth->func_110138_aP
+FOUND CONSTR method net/mcreator/chawnbattle/MCreatorChawn/EntityArrowCustom/EntityArrowCustom (Lnet/minecraft/world/World;)V net/mcreator/chawnbattle/MCreatorChawn/EntityArrowCustom
+FOUND CONSTR method net/mcreator/chawnbattle/MCreatorChawn/EntityArrowCustom/EntityArrowCustom (Lnet/minecraft/world/World;DDD)V net/mcreator/chawnbattle/MCreatorChawn/EntityArrowCustom
+FOUND CONSTR method net/mcreator/chawnbattle/MCreatorChawn/EntityArrowCustom/EntityArrowCustom (Lnet/minecraft/world/World;Lnet/minecraft/entity/EntityLivingBase;)V net/mcreator/chawnbattle/MCreatorChawn/EntityArrowCustom
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.EntityEntryBuilder
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.client.registry.RenderingRegistry
+Adding 35 imports
+        java.util.ArrayList
+        java.util.Iterator
+        net.minecraft.client.Minecraft
+        net.minecraft.client.model.ModelBiped
+        net.minecraft.client.renderer.entity.RenderBiped
+        net.minecraft.client.renderer.entity.RenderSnowball
+        net.minecraft.entity.Entity
+        net.minecraft.entity.EntityLivingBase
+        net.minecraft.entity.EnumCreatureAttribute
+        net.minecraft.entity.IRangedAttackMob
+        net.minecraft.entity.SharedMonsterAttributes
+        net.minecraft.entity.ai.EntityAIAttackMelee
+        net.minecraft.entity.ai.EntityAIAttackRanged
+        net.minecraft.entity.ai.EntityAIHurtByTarget
+        net.minecraft.entity.ai.EntityAILeapAtTarget
+        net.minecraft.entity.ai.EntityAILookIdle
+        net.minecraft.entity.ai.EntityAIMoveIndoors
+        net.minecraft.entity.ai.EntityAIOpenDoor
+        net.minecraft.entity.ai.EntityAISwimming
+        net.minecraft.entity.ai.EntityAIWander
+        net.minecraft.entity.monster.EntityMob
+        net.minecraft.entity.player.EntityPlayer
+        net.minecraft.entity.player.EntityPlayerMP
+        net.minecraft.entity.projectile.EntityTippedArrow
+        net.minecraft.init.Items
+        net.minecraft.item.Item
+        net.minecraft.item.ItemStack
+        net.minecraft.util.DamageSource
+        net.minecraft.util.EnumHand
+        net.minecraft.util.ResourceLocation
+        net.minecraft.util.math.MathHelper
+        net.minecraft.world.BossInfo
+        net.minecraft.world.BossInfoServer
+        net.minecraft.world.World
+        net.minecraft.world.biome.Biome
+End  Processing: net/mcreator/chawnbattle/MCreatorChawn.java
+
+Start Processing: net/mcreator/chawnbattle/MCreatorChawnEntityDies.java
+New Key: class net/mcreator/chawnbattle/Elementschawnbattle
+New Key: class net/mcreator/chawnbattle/Elementschawnbattle
+FOUND CONSTR method net/mcreator/chawnbattle/MCreatorChawnEntityDies/MCreatorChawnEntityDies (Lnet/mcreator/chawnbattle/Elementschawnbattle;)V net/mcreator/chawnbattle/MCreatorChawnEntityDies
+Rename method net/minecraft/server/MinecraftServer/getPlayerList ()Lnet/minecraft/server/management/PlayerList;[650,663]::getPlayerList->func_184103_al
+Rename method net/minecraft/server/management/PlayerList/sendMessage (Lnet/minecraft/util/text/ITextComponent;)V[667,678]::sendMessage->func_148539_a
+Import: net.minecraftforge.fml.common.FMLCommonHandler
+Adding 2 imports
+        net.minecraft.server.MinecraftServer
+        net.minecraft.util.text.TextComponentString
+End  Processing: net/mcreator/chawnbattle/MCreatorChawnEntityDies.java
+
+Start Processing: net/mcreator/chawnbattle/MCreatorChawnPlayerCollidesWithThisEntity.java
+New Key: class net/mcreator/chawnbattle/Elementschawnbattle
+New Key: class net/mcreator/chawnbattle/Elementschawnbattle
+FOUND CONSTR method net/mcreator/chawnbattle/MCreatorChawnPlayerCollidesWithThisEntity/MCreatorChawnPlayerCollidesWithThisEntity (Lnet/mcreator/chawnbattle/Elementschawnbattle;)V net/mcreator/chawnbattle/MCreatorChawnPlayerCollidesWithThisEntity
+Rename method net/minecraft/server/MinecraftServer/getPlayerList ()Lnet/minecraft/server/management/PlayerList;[686,699]::getPlayerList->func_184103_al
+Rename method net/minecraft/server/management/PlayerList/sendMessage (Lnet/minecraft/util/text/ITextComponent;)V[703,714]::sendMessage->func_148539_a
+Import: net.minecraftforge.fml.common.FMLCommonHandler
+Adding 2 imports
+        net.minecraft.server.MinecraftServer
+        net.minecraft.util.text.TextComponentString
+End  Processing: net/mcreator/chawnbattle/MCreatorChawnPlayerCollidesWithThisEntity.java
+
+Start Processing: net/mcreator/chawnbattle/MCreatorChawnRightClickedOnEntity.java
+New Key: class net/mcreator/chawnbattle/Elementschawnbattle
+New Key: class net/mcreator/chawnbattle/Elementschawnbattle
+FOUND CONSTR method net/mcreator/chawnbattle/MCreatorChawnRightClickedOnEntity/MCreatorChawnRightClickedOnEntity (Lnet/mcreator/chawnbattle/Elementschawnbattle;)V net/mcreator/chawnbattle/MCreatorChawnRightClickedOnEntity
+Rename method net/minecraft/server/MinecraftServer/getPlayerList ()Lnet/minecraft/server/management/PlayerList;[670,683]::getPlayerList->func_184103_al
+Rename method net/minecraft/server/management/PlayerList/sendMessage (Lnet/minecraft/util/text/ITextComponent;)V[687,698]::sendMessage->func_148539_a
+Import: net.minecraftforge.fml.common.FMLCommonHandler
+Adding 2 imports
+        net.minecraft.server.MinecraftServer
+        net.minecraft.util.text.TextComponentString
+End  Processing: net/mcreator/chawnbattle/MCreatorChawnRightClickedOnEntity.java
+
+Start Processing: net/mcreator/chawnbattle/ServerProxychawnbattle.java
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+End  Processing: net/mcreator/chawnbattle/ServerProxychawnbattle.java
+
+Start Processing: net/mcreator/chawnbattle/chawnbattle.java
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/mcreator/chawnbattle/Elementschawnbattle
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.fml.common.registry.EntityEntry
+Import: net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper
+Import: net.minecraftforge.fml.common.network.NetworkRegistry
+Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.fml.common.SidedProxy
+Import: net.minecraftforge.fml.common.Mod
+Import: net.minecraftforge.fluids.FluidRegistry
+Import: net.minecraftforge.event.RegistryEvent
+Import: net.minecraftforge.common.MinecraftForge
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 5 imports
+        java.util.function.Supplier
+        net.minecraft.block.Block
+        net.minecraft.item.Item
+        net.minecraft.potion.Potion
+        net.minecraft.world.biome.Biome
+End  Processing: net/mcreator/chawnbattle/chawnbattle.java
+
+Start Processing: net/mcreator/chawnbattle/chawnbattleVariables.java
+FOUND CONSTR method net/mcreator/chawnbattle/chawnbattleVariables/MapVariables/MapVariables ()V net/mcreator/chawnbattle/chawnbattleVariables/MapVariables
+FOUND CONSTR method net/mcreator/chawnbattle/chawnbattleVariables/MapVariables/MapVariables (Ljava/lang/String;)V net/mcreator/chawnbattle/chawnbattleVariables/MapVariables
+Rename method net/minecraft/world/storage/WorldSavedData/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[835,846]::readFromNBT->func_76184_a
+Rename method net/minecraft/world/storage/WorldSavedData/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[915,925]::writeToNBT->func_189551_b
+Rename method net/minecraft/world/storage/WorldSavedData/markDirty ()V[1022,1031]::markDirty->func_76185_a
+Rename field net/minecraft/world/World/isRemote[1052,1060]::isRemote->field_72995_K
+Rename method net/minecraft/world/World/getMapStorage ()Lnet/minecraft/world/storage/MapStorage;[1362,1375]::getMapStorage->func_175693_T
+Rename method net/minecraft/world/storage/MapStorage/getOrLoadData (Ljava/lang/Class;Ljava/lang/String;)Lnet/minecraft/world/storage/WorldSavedData;[1378,1391]::getOrLoadData->func_75742_a
+Rename method net/minecraft/world/World/getMapStorage ()Lnet/minecraft/world/storage/MapStorage;[1498,1511]::getMapStorage->func_175693_T
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[1514,1521]::setData->func_75745_a
+FOUND CONSTR method net/mcreator/chawnbattle/chawnbattleVariables/WorldVariables/WorldVariables ()V net/mcreator/chawnbattle/chawnbattleVariables/WorldVariables
+FOUND CONSTR method net/mcreator/chawnbattle/chawnbattleVariables/WorldVariables/WorldVariables (Ljava/lang/String;)V net/mcreator/chawnbattle/chawnbattleVariables/WorldVariables
+Rename method net/minecraft/world/storage/WorldSavedData/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[1862,1873]::readFromNBT->func_76184_a
+Rename method net/minecraft/world/storage/WorldSavedData/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[1942,1952]::writeToNBT->func_189551_b
+Rename method net/minecraft/world/storage/WorldSavedData/markDirty ()V[2049,2058]::markDirty->func_76185_a
+Rename field net/minecraft/world/World/isRemote[2079,2087]::isRemote->field_72995_K
+Rename field net/minecraft/world/World/provider[2289,2297]::provider->field_73011_w
+Rename method net/minecraft/world/storage/MapStorage/getOrLoadData (Ljava/lang/Class;Ljava/lang/String;)Lnet/minecraft/world/storage/WorldSavedData;[2458,2471]::getOrLoadData->func_75742_a
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[2603,2610]::setData->func_75745_a
+Rename field net/minecraft/network/NetHandlerPlayServer/player[2969,2975]::player->field_147369_b
+Rename method net/minecraft/entity/player/EntityPlayerMP/getServerWorld ()Lnet/minecraft/world/WorldServer;[2984,2998]::getServerWorld->func_71121_q
+Rename method net/minecraft/util/IThreadListener/addScheduledTask (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;[2999,3015]::addScheduledTask->func_152344_a
+Rename field net/minecraft/network/NetHandlerPlayServer/player[3081,3087]::player->field_147369_b
+Rename field net/minecraft/entity/Entity/world[3096,3101]::world->field_70170_p
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[3137,3149]::getMinecraft->func_71410_x
+Rename method net/minecraft/util/IThreadListener/addScheduledTask (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;[3152,3168]::addScheduledTask->func_152344_a
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[3209,3221]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/player[3224,3230]::player->field_71439_g
+Rename field net/minecraft/entity/Entity/world[3238,3243]::world->field_70170_p
+Rename field net/minecraft/world/World/provider[3572,3580]::provider->field_73011_w
+Rename method net/minecraft/world/World/getMapStorage ()Lnet/minecraft/world/storage/MapStorage;[3649,3662]::getMapStorage->func_175693_T
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[3665,3672]::setData->func_75745_a
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[3762,3769]::setData->func_75745_a
+FOUND CONSTR method net/mcreator/chawnbattle/chawnbattleVariables/WorldSavedDataSyncMessage/WorldSavedDataSyncMessage ()V net/mcreator/chawnbattle/chawnbattleVariables/WorldSavedDataSyncMessage
+FOUND CONSTR method net/mcreator/chawnbattle/chawnbattleVariables/WorldSavedDataSyncMessage/WorldSavedDataSyncMessage (ILnet/minecraft/world/storage/WorldSavedData;)V net/mcreator/chawnbattle/chawnbattleVariables/WorldSavedDataSyncMessage
+Rename method net/minecraft/world/storage/WorldSavedData/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[4260,4270]::writeToNBT->func_189551_b
+Rename method net/minecraft/world/storage/WorldSavedData/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[4528,4539]::readFromNBT->func_76184_a
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.network.simpleimpl.MessageContext
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessage
+Import: net.minecraftforge.fml.common.network.ByteBufUtils
+Adding 4 imports
+        net.minecraft.client.Minecraft
+        net.minecraft.nbt.NBTTagCompound
+        net.minecraft.world.World
+        net.minecraft.world.storage.WorldSavedData
+End  Processing: net/mcreator/chawnbattle/chawnbattleVariables.java
+
