@@ -1,0 +1,114 @@
+{
+  "_fv": 4,
+  "_type": "mob",
+  "definition": {
+    "mobName": "Chawn",
+    "mobLabel": "Chawn",
+    "mobModelTexture": "f395ff0805dcdd45(1).png",
+    "mobModelName": "Biped",
+    "modelWidth": 0.6,
+    "modelHeight": 1.8,
+    "modelShadowSize": 0.5,
+    "armorBaseValue": 0.5,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -16777216,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -16711681,
+      "falpha": 0.0
+    },
+    "isBoss": true,
+    "bossBarColor": "RED",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": ""
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Mob",
+    "mobCreatureType": "UNDEAD",
+    "attackStrength": 10,
+    "movementSpeed": 0.8,
+    "health": 200,
+    "xpAmount": 6,
+    "waterMob": false,
+    "flyingMob": false,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": true,
+    "immuneToArrows": false,
+    "immuneToFallDamage": true,
+    "immuneToCactus": false,
+    "immuneToDrowning": true,
+    "immuneToLightning": false,
+    "immuneToPotions": false,
+    "immuneToPlayer": false,
+    "mobDrop": {
+      "value": ""
+    },
+    "rareDrop": {
+      "value": ""
+    },
+    "livingSound": {
+      "value": ""
+    },
+    "hurtSound": {
+      "value": "entity.player.hurt"
+    },
+    "deathSound": {
+      "value": "entity.player.death"
+    },
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
+    "particleSpawningCondition": "ALWAYS",
+    "whenMobDies": {
+      "name": "ChawnEntityDies"
+    },
+    "onRightClickedOn": {
+      "name": "ChawnRightClickedOnEntity"
+    },
+    "onPlayerCollidesWith": {
+      "name": "ChawnPlayerCollidesWithThisEntity"
+    },
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "\u003cxml xmlns\u003d\"https://developers.google.com/blockly/xml\"\u003e\u003cblock type\u003d\"aitasks_container\" deletable\u003d\"false\" x\u003d\"40\" y\u003d\"40\"\u003e\u003cnext\u003e\u003cblock type\u003d\"wander\"\u003e\u003cfield name\u003d\"speed\"\u003e0.5\u003c/field\u003e\u003cnext\u003e\u003cblock type\u003d\"look_around\"\u003e\u003cnext\u003e\u003cblock type\u003d\"swim_in_water\"\u003e\u003cnext\u003e\u003cblock type\u003d\"leap_at_target\"\u003e\u003cfield name\u003d\"speed\"\u003e0.8\u003c/field\u003e\u003cnext\u003e\u003cblock type\u003d\"attack_on_collide\"\u003e\u003cfield name\u003d\"speed\"\u003e0.8\u003c/field\u003e\u003cfield name\u003d\"longmemory\"\u003eTRUE\u003c/field\u003e\u003cnext\u003e\u003cblock type\u003d\"attack_action\"\u003e\u003cfield name\u003d\"callhelp\"\u003eTRUE\u003c/field\u003e\u003cnext\u003e\u003cblock type\u003d\"doors_open\"\u003e\u003cnext\u003e\u003cblock type\u003d\"doors_close\"\u003e\u003cnext\u003e\u003cblock type\u003d\"move_indoors\"/\u003e\u003c/next\u003e\u003c/block\u003e\u003c/next\u003e\u003c/block\u003e\u003c/next\u003e\u003c/block\u003e\u003c/next\u003e\u003c/block\u003e\u003c/next\u003e\u003c/block\u003e\u003c/next\u003e\u003c/block\u003e\u003c/next\u003e\u003c/block\u003e\u003c/next\u003e\u003c/block\u003e\u003c/next\u003e\u003c/block\u003e\u003c/xml\u003e",
+    "breedable": false,
+    "breedTriggerItems": [],
+    "ranged": true,
+    "rangedAttackItem": {
+      "value": "Items.ENDER_EYE"
+    },
+    "spawnThisMob": false,
+    "doesDespawnWhenIdle": false,
+    "spawningProbability": 20,
+    "mobSpawningType": "monster",
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 1,
+    "restricSpawnPerBiome": false,
+    "restrictionBiomes": [],
+    "spawnInDungeons": false
+  }
+}
